@@ -1,0 +1,25 @@
+{
+  "name": "log-galaxy-cli",
+  "version": "0.0.1",
+  "description": "Log Galaxy CLI Tool",
+  "main": "lg.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ManChoy",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.3.0",
+    "clear": "0.0.1",
+    "cli-table": "^0.3.1",
+    "commander": "^2.12.2",
+    "es6-promisify": "^5.0.0",
+    "figlet": "^1.2.0",
+    "minimist": "^1.2.0",
+    "pidusage": "^1.2.0",
+    "ps-node": "^0.1.6"
+  },
+  "bin": {
+    "lg": "./lg.js"
+  }
+}
